@@ -12,7 +12,7 @@
         });
         $routeProvider.when('/registration', {
             templateUrl: 'modules/registration/registration.tpl.html',
-            controller: 'RegistrationController',
+            controller: 'RegisterController',
             controllerAs: 'registerCtrl',
             css: '/modules/registration/registration.style.css'
         }).otherwise({redirectTo: '/'});
